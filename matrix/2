@@ -1,0 +1,15 @@
+import numpy as np
+matrix =np.arange(10,22).reshape((3,4))
+print("orginal matrix:")
+print(matrix)
+print("number of rows and columns of the matrix:")
+print(matrix.shape)
+
+
+output
+orginal matrix:
+[[10 11 12 13]
+ [14 15 16 17]
+ [18 19 20 21]]
+number of rows and columns of the matrix:
+(3, 4)
