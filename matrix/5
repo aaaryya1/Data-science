@@ -1,0 +1,31 @@
+import numpy as np
+a=np.array([[1,2],[3,4]])
+b=np.array([[4,5],[6,7]])
+print("elements of first matrix:")
+print(a)
+print("elements of first matrix:")
+print(b)
+print("addition of two matrix:")
+print(np.add(a,b))
+print("subtraction of two matrix:")
+print(np.subtract(a,b))
+print("multiplication of two matrix:")
+print(np.multiply(a,b))
+
+
+output
+elements of first matrix:
+[[1 2]
+ [3 4]]
+elements of first matrix:
+[[4 5]
+ [6 7]]
+addition of two matrix:
+[[ 5  7]
+ [ 9 11]]
+subtraction of two matrix:
+[[-3 -3]
+ [-3 -3]]
+multiplication of two matrix:
+[[ 4 10]
+ [18 28]]
