@@ -1,0 +1,14 @@
+import numpy as np
+matrix=np.array([[10,3,12],
+                 [2,4,5],
+                 [7,9,10]])
+print("max value:",np.max(matrix))
+print();
+print("min value:",np.min(matrix))
+print()
+
+
+output
+max value: 12
+
+min value: 2
