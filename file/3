@@ -1,9 +1,0 @@
-arr=[1,4,5,7,8];
-sum=0;
-for i in range(0,len(arr)):
-    sum=sum+arr[i];
-print("sum of elements in an array:" +str(sum));
-
-
-output
-sum of elements in an array:25
